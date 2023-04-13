@@ -1,0 +1,51 @@
+.pop-container {
+  margin-top: 25px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image-icon-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.name-container {
+  padding-left: 25px;
+  padding-top: 6px;
+}
+.image {
+  height: 150px;
+  width: 220px;
+}
+.name-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 550;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 20px;
+}
+.delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 35px;
+}
+.duration {
+  color: #ffffff;
+  padding-right: 35px;
+  font-size: 18px;
+}
+.delete-icon {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
